@@ -1,0 +1,54 @@
+body {
+  margin: 50px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: rgb(220, 39, 196);
+  text-align: center;
+
+}
+p{
+    color: aqua;
+}
+h1{
+    color: rgb(109, 7, 56);
+    font-size: 70px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+.aviso {
+  position: fixed; /* deja el aunicio fijo*/
+  bottom: 20px; /*espacio de abajo y arriba , ubicacion*/
+  right: 20px;/*a los lados derecha izquierda*/
+  background: rgb(249, 27, 168);
+  color: rgb(119, 3, 84);
+  padding: 20px;
+  border-radius: 15px;
+}
+
+.aviso button {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.esconder {
+  display: none;
+}
+.aviso {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 200px;
+  height: 100px; ;
+  background: rgb(180, 6, 244);
+  color: rgb(234, 222, 235);
+  padding: 20px;
+  border-radius: 15px;
+  text-align: center;
+}
+#boton{
+    color: rgb(169, 6, 195);
+}
